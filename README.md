@@ -38,7 +38,7 @@ Ferramentas utilizadas na construção do projeto:
 - **[Styled Components](https://styled-components.com/)**
 - **[ESLint](https://eslint.org/)**
 
-### **UI Mobile**
+#### **UI Mobile**
 - **[TypeScript](https://www.typescriptlang.org)**
 - **[React Native](https://reactnative.dev/)**
 - **[Expo](https://expo.dev/)**
