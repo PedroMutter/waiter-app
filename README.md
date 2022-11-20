@@ -1,6 +1,6 @@
 # WAITERAPP
 
-## [Evento O Poder do JavaScript](https://opoderdojs.jstack.com.br/aulas/aula-1) - por [Mateus Silva](https://github.com/maateusilva)
+## Evento [O Poder do JavaScript](https://opoderdojs.jstack.com.br/aulas/aula-1) - por [Mateus Silva](https://github.com/maateusilva)
 
 ### 💻 Sobre o projeto
 
