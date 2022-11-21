@@ -7,7 +7,6 @@ export const Board = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   flex: 1;
 
   > header {
@@ -26,8 +25,7 @@ export const OrdersContainer = styled.div`
   margin-top: 24px;
 
   button {
-    width: 100%;
-    background: #fff;
+    background-color: #fff;
     border: 1px solid rgba(204, 204, 204, 0.4);
     height: 128px;
     border-radius: 8px;

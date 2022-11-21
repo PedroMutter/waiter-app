@@ -2,12 +2,12 @@ import styled from 'styled-components'
 
 export const Overlay = styled.div`
   left: 0px;
-  right: 0px;
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(4.5px);
+  top: 0px;
   width: 100%;
   height: 100%;
   position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4.5px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,17 +40,16 @@ export const ModalBody = styled.div`
 
     small {
       font-size: 14px;
-      opacity: 0.8
+      opacity: 0.8;
     }
 
     div {
-      margin-top: 8px;
       display: flex;
       align-items: center;
       gap: 8px;
+      margin-top: 8px;
     }
   }
-
 `
 
 export const OrderDetails = styled.div`
@@ -60,6 +59,19 @@ export const OrderDetails = styled.div`
     font-weight: 500;
     font-size: 14px;
     opacity: 0.8;
+  }
+
+  .total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+
+    span {
+      font-weight: 500;
+      font-size: 14px;
+      opacity: 0.8;
+    }
   }
 
   .order-items {
@@ -73,6 +85,9 @@ export const OrderDetails = styled.div`
       }
 
       img {
+        width: 56px;
+        height: 30px;
+        object-fit: cover;
         border-radius: 6px;
       }
 
@@ -99,25 +114,17 @@ export const OrderDetails = styled.div`
       }
     }
   }
-
-  .total {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 24px;
-
-    span {
-      font-weight: 500;
-      font-size: 14px;
-      opacity: 0.8;
-    }
-  }
 `
 
 export const Actions = styled.footer`
   display: flex;
   flex-direction: column;
   margin-top: 32px;
+
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
 
   .primary {
     background: #333333;
@@ -133,11 +140,11 @@ export const Actions = styled.footer`
   }
 
   .secondary {
-    padding: 12px 24px;
+    padding: 14px 24px;
     color: #D73035;
     font-weight: bold;
     border: 0;
     background: transparent;
-    margin-top: 12px;
+    margin-top: 8px;
   }
 `
