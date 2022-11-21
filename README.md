@@ -9,7 +9,6 @@ Projeto desenvolvido durante o evento 'O Poder do JavaScript' durante os dias 14
 ### 🛠 Tecnologias
 
 Ferramentas utilizadas na construção do projeto:
-
 #### **API** 
 - **[TypeScript](https://www.typescriptlang.org)**
 - **[Node.js](https://nodejs.org/)**
