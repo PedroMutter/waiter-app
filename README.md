@@ -1,7 +1,5 @@
 # WAITERAPP
 
-## Evento [O Poder do JavaScript](https://opoderdojs.jstack.com.br/aulas/aula-1) - por [Mateus Silva](https://github.com/maateusilva)
-
 ### 💻 Sobre o projeto
 
 Projeto desenvolvido durante o evento 'O Poder do JavaScript' durante os dias 14/11/22 a 18/11/22. Consiste de uma aplicação utilizada por garçons para cadastrar o pedido dos clientes de um restaurante e então enviar os dados para um dashboard onde os funcionários da cozinha tem acesso aos pedidos ordenados por seus respectivos status (em espera, em produção, feito), podendo alterar este status ou cancelar pedidos.
